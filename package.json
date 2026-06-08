@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-test-app",
+  "version": "1.0.0",
+  "description": "Test Node.js Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
