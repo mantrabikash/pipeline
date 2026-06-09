@@ -29,11 +29,11 @@ jobs:
         run: |
           docker pull bikashsmantra/github-actions:latest
 
-          docker stop github-actions-app || true
-          docker rm github-actions-app || true
+          docker stop node-js || true
+          docker rm node-js || true
 
           docker run -d \
-            --name github-actions-app \
+            --name node-js \
             --restart unless-stopped \
             -p 3000:3000 \
             bikashsmantra/github-actions:latest
